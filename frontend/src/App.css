@@ -1,0 +1,9 @@
+@import "tailwindcss";
+@plugin "daisyui";
+ @plugin "daisyui" {
+   themes: light --default, dark --prefersdark;
+ }
+.messages-scroll {
+  -webkit-overflow-scrolling: touch; /* enable momentum scroll on iOS */
+  overscroll-behavior: contain; /* control overscroll behavior */
+}

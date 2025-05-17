@@ -1,0 +1,22 @@
+# Set default to text files with normalized (LF) line endings
+* text=auto
+
+# Force LF endings for common text/code files
+*.js   text eol=lf
+*.jsx  text eol=lf
+*.ts   text eol=lf
+*.tsx  text eol=lf
+*.css  text eol=lf
+*.html text eol=lf
+*.json text eol=lf
+*.md   text eol=lf
+*.yml  text eol=lf
+*.yaml text eol=lf
+*.sh   text eol=lf
+
+# Binary files - don't modify line endings
+*.png  binary
+*.jpg  binary
+*.svg  binary
+*.woff binary
+*.woff2 binary
